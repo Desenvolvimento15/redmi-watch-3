@@ -45,14 +45,24 @@ body {
 }
 
 .sub-title {
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: 400;
+  font-size: 3.5rem;
+  font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
+  color: #EA8B4C;
   position: relative;
-  margin-bottom: 1rem;
   overflow-wrap: break-word;
 }
+
+.sub-title-02 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: "Camphor Pro", sans-serif;
+  color: #29A397;
+  position: relative;
+  overflow-wrap: break-word;
+  text-align: right !important;
+}
+
 
 .p-center {
   font-size: 1.1rem;
@@ -149,55 +159,31 @@ p.txt-branco-preto {
 
 /*************************************************** Grid *************************************/
 
-.grid-pad-se-desk {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  max-width: 90rem;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: 100px 100px 100px;
+.grid-text-watch-tree{
+  max-width: 37rem;
+  top: 2rem;
+  display: flex;
+  position: absolute;
 }
 
-.grid-pad-se {
+.grid-text-watch-tree-02{
+  max-width: 37rem;
+  top: -1rem;
   display: flex;
+  position: absolute;
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 63rem;
-  margin: 0 auto;
-  gap: 7rem;
-  margin-top: -12rem;
+  right: 12rem;
 }
 
-.grid-pad-se-text {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  max-width: 56rem;
-  margin: 0 auto;
-  gap: 9rem;
-}
 
-.grid-img-text {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  max-width: 76rem;
-  margin: 0 auto;
-  gap: 12rem;
-  position: relative;
-  top: -11rem;
-}
 
-.grid-img-pad {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  flex-direction: row;
-  gap: 2rem;
-}
+
+
+
+
+
+
+
 
 .img-grid-mob{
   display: none;
