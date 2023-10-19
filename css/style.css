@@ -38,7 +38,7 @@ body {
 }
 
 .sub-title {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   color: #EA8B4C;
@@ -47,7 +47,7 @@ body {
 }
 
 .sub-title-02 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   color: #29A397;
@@ -57,7 +57,7 @@ body {
 }
 
 .sub-title-03 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   color: #29A397;
@@ -115,18 +115,16 @@ body {
   overflow-wrap: break-word;
 }
 
-
 .txt-preto {color: #292929;}
 .txt-branco {color: #fff;}
 .txt-verde{color: #438D3B;}
+.txt-green{color: #97DD96;}
 .txt-roxo{color: #745FEA;}
 .txt-azul{color: #0082B8;}
 
 .background-green{background-color:#F2FFF0;}
 
-.spacing{
-  padding: 3rem;
-}
+.spacing{padding: 3rem;}
 
 /*************************************************** Grid *************************************/
 
@@ -167,7 +165,6 @@ body {
 }
 
 
-
 .grid-text-info{
   display: flex;
   flex-direction: row;
@@ -198,6 +195,15 @@ body {
   align-items: center;
 }
 
+.grid-img-watch{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .img-grid-mob{
   display: none;
 }
@@ -206,13 +212,8 @@ body {
   padding: 8rem;
 }
 
-.icon-white-desk{
-  display: block;
-}
-
-.icon-dark-mob{
-display: none;
-}
+.icon-white-desk{display: block;}
+.icon-dark-mob{display: none;}
 
 
 /**************************************************** Mobile ************************************************/
@@ -288,6 +289,7 @@ display: none;
   .grid-buds4-desk {
     display: none;
   }
+
 
 
 /************************************************************************************/
