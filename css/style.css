@@ -146,6 +146,10 @@ body {
   color: #0082B8;
 }
 
+.background-green{
+  background-color:#F2FFF0;
+}
+
 .spacing{
   padding: 3rem;
 }
@@ -221,6 +225,14 @@ body {
 .icon-dark-mob{
 display: none;
 }
+
+
+
+
+
+
+
+
 
 /**************************************************** Mobile ************************************************/
 
@@ -300,9 +312,10 @@ display: none;
 /************************************************************************************/
 
 
-.spacing{
+  .spacing{
   padding: 1.5rem;
-}
+  }
+
   p.txt-branco-preto {
     color: #05061a;
   }
