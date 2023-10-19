@@ -38,7 +38,7 @@ body {
 }
 
 .sub-title {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   color: #EA8B4C;
@@ -47,7 +47,7 @@ body {
 }
 
 .sub-title-02 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   color: #29A397;
@@ -57,12 +57,14 @@ body {
 }
 
 .sub-title-03 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   color: #29A397;
   position: relative;
   overflow-wrap: break-word;
+  top: -1rem;
+  left: 5rem;
 }
 
 
@@ -85,71 +87,49 @@ body {
   overflow-wrap: break-word;
 }
 
-.icons-title {
-  font-size: 2.7rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 700;
-  color: #EA8B4C;
-  margin-top: 1rem;
-  line-height: 1.2;
-}
-
 .icons-title-01 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   font-weight: 700;
   color: #EA8B4C;
-  margin-top: 1rem;
-  line-height: 1.2;
+  margin-top: 0.5rem;
 }
 
-.icons-text {
+.icons-title {
   font-size: 1rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
-  font-weight: 400;
-  line-height: 1.2;
-  margin-top: 1rem;
+  font-weight: 700;
+  color: #000;
+  margin-top: 0.5rem;
 }
 
-.icons-tex {
-  font-size: 1rem;
+.icons-p {
+  font-size: 1.1rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
-  font-weight: 400;
-  color: #7f7f7f;
+  overflow-wrap: break-word;
 }
+
 
 .txt-preto {color: #292929;}
 .txt-branco {color: #fff;}
+.txt-verde{color: #438D3B;}
+.txt-roxo{color: #745FEA;}
+.txt-azul{color: #0082B8;}
 
-.txt-verde{
-  color: #438D3B;
-}
-
-.txt-roxo{
-  color: #745FEA;
-}
-
-.txt-azul{
-  color: #0082B8;
-}
-
-.background-green{
-  background-color:#F2FFF0;
-}
+.background-green{background-color:#F2FFF0;}
 
 .spacing{
   padding: 3rem;
 }
 
 /*************************************************** Grid *************************************/
+
 
 .grid-text-watch-tree{
   max-width: 37rem;
@@ -176,6 +156,18 @@ body {
   left: 5rem;
 }
 
+.grid-text-watch-tree-04{
+  max-width: 37rem;
+  top: -1rem;
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  right: 12rem;
+  text-align: right;
+}
+
+
+
 .grid-text-info{
   display: flex;
   flex-direction: row;
@@ -193,7 +185,7 @@ body {
   align-content: center;
   justify-content: center;
   gap: 5rem;
-  max-width: 59rem;
+  max-width: 64rem;
   margin: 0 auto;
   margin-top: 4rem;
 }
