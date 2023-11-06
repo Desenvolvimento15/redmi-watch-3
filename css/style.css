@@ -287,9 +287,9 @@ body {
   }
 
   .grid-img-watch {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   }
 
   .grid-img-text {
@@ -314,110 +314,110 @@ body {
   }
 
 
-/*********************************************/
+/*******************Fonts**************************/
 
-  .spacing{padding: 1.5rem;}
-  p.txt-branco-preto {color: #05061a;}
-  
- 
+.spacing{padding: 1.5rem;}
+p.txt-branco-preto {color: #05061a;}
+
+
 .title {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 500;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  line-height: 1;
-  overflow-wrap: break-word;
-  color: #292929;
+text-align: center;
+font-size: 3rem;
+font-weight: 500;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+line-height: 1;
+overflow-wrap: break-word;
+color: #292929;
 }
 
 .subtitle {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
+text-align: center;
+font-size: 2rem;
+font-weight: 600;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+margin-bottom: 1rem;
+overflow-wrap: break-word;
 }
 
-  .sub-title {
-  font-size: 2rem;
-  font-weight: 700;
-  font-family: "Camphor Pro", sans-serif;
-  color: #EA8B4C;
-  position: relative;
-  overflow-wrap: break-word;
-  }
+.sub-title {
+font-size: 2rem;
+font-weight: 700;
+font-family: "Camphor Pro", sans-serif;
+color: #EA8B4C;
+position: relative;
+overflow-wrap: break-word;
+}
 
-  .sub-title-02 {
-  font-size: 2rem;
-  font-weight: 700;
-  font-family: "Camphor Pro", sans-serif;
-  color: #29A397;
-  position: relative;
-  overflow-wrap: break-word;
-  text-align: right !important;
-  }
+.sub-title-02 {
+font-size: 2rem;
+font-weight: 700;
+font-family: "Camphor Pro", sans-serif;
+color: #29A397;
+position: relative;
+overflow-wrap: break-word;
+text-align: right !important;
+}
 
-  .sub-title-03 {
-  font-size: 2rem;
-  font-weight: 700;
-  font-family: "Camphor Pro", sans-serif;
-  color: #29A397;
-  position: relative;
-  overflow-wrap: break-word;
-  top: -1rem;
-  left: 11rem;
-  }
+.sub-title-03 {
+font-size: 2rem;
+font-weight: 700;
+font-family: "Camphor Pro", sans-serif;
+color: #29A397;
+position: relative;
+overflow-wrap: break-word;
+top: -1rem;
+left: 11rem;
+}
 
 
-  .p-center {
-  font-size: 1.1rem;
-  text-align: center;
-  padding: 20px;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  line-height: 1.3;
-  overflow-wrap: break-word;
-  }
+.p-center {
+font-size: 1.1rem;
+text-align: center;
+padding: 20px;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+line-height: 1.3;
+overflow-wrap: break-word;
+}
 
-  .p-aviso {
-  font-size: 1rem;
-  text-align: center;
-  padding: 20px;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  overflow-wrap: break-word;
-  }
+.p-aviso {
+font-size: 1rem;
+text-align: center;
+padding: 20px;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
 
-  .icons-title-01 {
-  font-size: 2rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 700;
-  color: #EA8B4C;
-  margin-top: 0.5rem;
-  }
+.icons-title-01 {
+font-size: 2rem;
+text-align: center;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+font-weight: 700;
+color: #EA8B4C;
+margin-top: 0.5rem;
+}
 
-  .icons-title {
-  font-size: 1rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 700;
-  color: #000;
-  margin-top: 0.5rem;
-  }
+.icons-title {
+font-size: 1rem;
+text-align: center;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+font-weight: 700;
+color: #000;
+margin-top: 0.5rem;
+}
 
-  .icons-p {
-  font-size: 1.1rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  overflow-wrap: break-word;
-  }
+.icons-p {
+font-size: 1.1rem;
+text-align: center;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
 
 
 
