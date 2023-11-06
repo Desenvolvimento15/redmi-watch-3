@@ -16,6 +16,8 @@ body {
   height: auto;
 }
 
+.img-end{width: 5rem; position: relative; right: 26rem; top: 14rem;}
+
 .title-first {
   text-align: center;
   font-size: 2.5rem;
@@ -225,36 +227,36 @@ body {
   .img-grid-desk{display: none;}
   .img-grid-mob{display: block; padding: 1rem;}
 
+  .img-end{width: 5rem; position: relative; right: 0rem; top: 0rem;}
 
 /******************* Grind Mobile ****************/
-/******************************************* Grid *************************************/
 
-.grid-text-watch-tree{
+  .grid-text-watch-tree{
   max-width: 37rem;
-  top: 2rem;
+  top: -2rem;
   display: flex;
   position: absolute;
-}
+  }
 
-.grid-text-watch-tree-02{
+  .grid-text-watch-tree-02 {
   max-width: 37rem;
   top: -1rem;
   display: flex;
   position: absolute;
   flex-wrap: wrap;
-  right: 12rem;
-}
+  right: 1rem;
+  }
 
-.grid-text-watch-tree-03{
+  .grid-text-watch-tree-03{
   max-width: 37rem;
   top: -5rem;
   display: flex;
   position: absolute;
   flex-wrap: wrap;
   left: 5rem;
-}
+  }
 
-.grid-text-watch-tree-04{
+  .grid-text-watch-tree-04{
   max-width: 37rem;
   top: -1rem;
   display: flex;
@@ -262,47 +264,33 @@ body {
   flex-wrap: wrap;
   right: 12rem;
   text-align: right;
-}
+  }
 
-
-.grid-icons{
+  .grid-icons {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 2rem;
   max-width: 64rem;
   margin: 0 auto;
   margin-top: 4rem;
-}
+  }
 
-.grid-txt-info{
+  .grid-txt-info{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-}
+  }
 
-.grid-img-watch{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-
-
-
-
-
-
-
+  .grid-img-watch {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
   .grid-img-text {
   display: flex;
@@ -353,16 +341,16 @@ body {
   overflow-wrap: break-word;
 }
 
-.sub-title {
+  .sub-title {
   font-size: 2rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   color: #EA8B4C;
   position: relative;
   overflow-wrap: break-word;
-}
+  }
 
-.sub-title-02 {
+  .sub-title-02 {
   font-size: 2rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
@@ -370,9 +358,9 @@ body {
   position: relative;
   overflow-wrap: break-word;
   text-align: right !important;
-}
+  }
 
-.sub-title-03 {
+  .sub-title-03 {
   font-size: 2rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
@@ -380,11 +368,11 @@ body {
   position: relative;
   overflow-wrap: break-word;
   top: -1rem;
-  left: 5rem;
-}
+  left: 11rem;
+  }
 
 
-.p-center {
+  .p-center {
   font-size: 1.1rem;
   text-align: center;
   padding: 20px;
@@ -392,18 +380,18 @@ body {
   position: relative;
   line-height: 1.3;
   overflow-wrap: break-word;
-}
+  }
 
-.p-aviso {
+  .p-aviso {
   font-size: 1rem;
   text-align: center;
   padding: 20px;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   overflow-wrap: break-word;
-}
+  }
 
-.icons-title-01 {
+  .icons-title-01 {
   font-size: 2rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
@@ -411,9 +399,9 @@ body {
   font-weight: 700;
   color: #EA8B4C;
   margin-top: 0.5rem;
-}
+  }
 
-.icons-title {
+  .icons-title {
   font-size: 1rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
@@ -421,15 +409,18 @@ body {
   font-weight: 700;
   color: #000;
   margin-top: 0.5rem;
-}
+  }
 
-.icons-p {
+  .icons-p {
   font-size: 1.1rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   overflow-wrap: break-word;
-}
+  }
+
+
+
 
 
 
