@@ -7,16 +7,11 @@
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
 
-body {
-  font-family: "Camphor Pro", sans-serif;
-}
 
-.img-fluid {
-  width: 100%;
-  height: auto;
-}
-
+.img-fluid {width: 100%; height: auto;}
+.img-icons-watch{width: 10rem; margin-bottom: 1rem;}
 .img-end{width: 5rem; position: relative; right: 26rem; top: 14rem;}
+
 
 .title-first {
   text-align: center;
@@ -60,6 +55,17 @@ body {
 
 .sub-title-03 {
   font-size: 4rem;
+  font-weight: 700;
+  font-family: "Camphor Pro", sans-serif;
+  color: #29A397;
+  position: relative;
+  overflow-wrap: break-word;
+  top: -1rem;
+  left: 5rem;
+}
+
+.sub-title-04 {
+    font-size: 4rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   color: #29A397;
@@ -228,8 +234,12 @@ body {
   .img-grid-mob{display: block; padding: 1rem;}
 
   .img-end{width: 5rem; position: relative; right: 0rem; top: 0rem;}
+  .img-icons-watch{width: 5rem; margin-bottom: 1rem;}	
+  
 
 /******************* Grind Mobile ****************/
+	
+	
 
   .grid-text-watch-tree{
   max-width: 37rem;
@@ -266,17 +276,17 @@ body {
   text-align: right;
   }
 
-  .grid-icons {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  gap: 2rem;
-  max-width: 64rem;
-  margin: 0 auto;
-  margin-top: 4rem;
-  }
+.grid-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    /* max-width: 64rem; */
+    /* margin: 0 auto; */
+    /* margin-top: 4rem; */
+}
 
   .grid-txt-info{
   display: flex;
@@ -285,6 +295,8 @@ body {
   justify-content: center;
   align-items: center;
   }
+	
+	
 
   .grid-img-watch {
   display: flex;
@@ -303,15 +315,15 @@ body {
   top: 1.5rem;
   }
 
-  .grid-text-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 6rem;
-  max-width: 36rem;
-  margin: 0 auto;
-  }
+.grid-text-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    max-width: 36rem;
+    margin: 0 auto;
+}
 
 
 /*******************Fonts**************************/
@@ -333,7 +345,7 @@ color: #292929;
 
 .subtitle {
 text-align: center;
-font-size: 2rem;
+font-size: 1.8rem;
 font-weight: 600;
 font-family: "Camphor Pro", sans-serif;
 position: relative;
@@ -364,14 +376,24 @@ text-align: right !important;
 font-size: 2rem;
 font-weight: 700;
 font-family: "Camphor Pro", sans-serif;
-color: #29A397;
 position: relative;
 overflow-wrap: break-word;
-top: -1rem;
-left: 11rem;
+top: 3rem;
+left: -4rem;
 }
+	
 
-
+.sub-title-04 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    top: -2.5rem;
+    left: 10rem;
+}
+	
+	
 .p-center {
 font-size: 1.1rem;
 text-align: center;
@@ -419,8 +441,7 @@ position: relative;
 overflow-wrap: break-word;
 }
 
-
-
+	
 
 
 
